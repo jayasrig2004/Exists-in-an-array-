@@ -1,0 +1,8 @@
+Function to check if a number exists in an array
+def check_number_in_array(array, number):
+     Use the 'in' keyword to check if the number exists in the array
+    if number in array:
+        print(f"{number} exists in the array.")
+    else:
+        print(f"{number} does not exist in the array.")
+
